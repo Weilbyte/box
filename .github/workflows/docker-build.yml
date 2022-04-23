@@ -48,7 +48,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Build
-        run: cd armv7-debian-11 && docker buildx build --platform linux/arm/v7 . -t weilbyte/box:arm64v8-debian-11 --push
+        run: cd armv7-debian-11 && docker buildx build --platform linux/arm/v7 . -t weilbyte/box:armv7-debian-11 --push
   manifests:
     name: Update manifests
     runs-on: ubuntu-latest
