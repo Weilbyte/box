@@ -23,7 +23,7 @@ Hello, world! This binary is compiled for amd64.
 ```dockerfile
 FROM weilbyte/box:debian-11
 
-RUN /usr/
+RUN /usr/local/bin/box64 --version
 ```
 
 ## Configuration
