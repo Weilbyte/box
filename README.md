@@ -4,7 +4,7 @@
 # box
 Comes with box86/box64 for emulating i386/amd64 workloads on armv7/arm64v8. Default entry point is `box86`/`box64` (depending on architecture), which can be found at `/usr/local/bin/box86`/ `/usr/local/bin/box64`. Image is rebuilt against box86/box64 master branch every 24 hours.
 
-## Tags
+## Tags 
 * `latest`, **`debian-11`** (*[arm64v8-debian-11/Dockerfile](arm64v8-debian-11/Dockerfile), [arm64v8-debian-11/Dockerfile](armv7-debian-11/Dockerfile)*)
 * `armv7-debian-11` (*[arm64v8-debian-11/Dockerfile](armv7-debian-11/Dockerfile)*)
 * `arm64v8-debian-11` (*[arm64v8-debian-11/Dockerfile](arm64v8-debian-11/Dockerfile)*)
