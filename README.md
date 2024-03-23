@@ -14,7 +14,7 @@ Comes with box86/box64 for emulating i386/amd64 workloads on armv7/arm64v8. Defa
 
 ## Usage
 
-### Mount and run amd64 binary
+### Mount and run amd64 binary 
 ```sh
 $ sudo docker run -it --rm -e BOX64_LOG=0 -v $(pwd):/binary weilbyte/box:debian-11 /binary/hello
 Hello, world! This binary is compiled for amd64.
